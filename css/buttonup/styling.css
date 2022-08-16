@@ -1,0 +1,23 @@
+#one{
+    border-radius: 10px;
+    color: darkturquoise;
+    display: block;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 30px
+}
+#two{
+    border-radius: 50%;
+    display: block;
+    color:white;
+    background-color: aqua;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 50px;
+}
+#three{
+    color: white;
+    background-color: blue;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 20px;
+}
