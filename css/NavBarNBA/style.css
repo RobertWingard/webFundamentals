@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+#nav-bar{
+    /* height: 100px; */
+    background-color: rgb(173, 25, 141);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+#nav-links{
+    display: flex;
+    list-style: none;
+    width: 1500px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    }
+
+#playa{
+    margin-right: 200px;
+}
+
+#nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    color: white;
+}

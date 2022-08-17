@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+
+    background-color: rgb(85, 83, 85);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-between;
+    align-items: right;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    color: white;
+    background-color: blue;
+    padding: 5px
+}
