@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.row{
+    height: 300px;
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    /* align-items: center; */
+    
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+    border: 1px solid black;
+    padding: 5px;
+    background-image: url('images/alwaysSunny.jpg');
+    background-size: cover contain;
+    }
+
+#row1{
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+#row2{
+    justify-content: space-between;
+
+}
+
+#row3{
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+img{
+    height: 140px;
+    width: 140px;
+}

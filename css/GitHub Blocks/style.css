@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.row{
+    background-color:dodgerblue ;
+    height: 300px;
+    border: 10px solid white;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#row1{
+    justify-content: space-between;
+}
+
+#row2{
+    background-color: plum;
+    justify-content: space-evenly;
+}
+
+#row3{
+    background-color: white;
+    justify-content: space-around;
+}
+
+.square{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    }
+
+img{
+    display: flex;
+    height: 250px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    }
