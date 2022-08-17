@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color:azure;
+    margin: 20px;
 }
 
 .row{
@@ -26,8 +27,9 @@ body{
 }
 
 #row3{
-    background-color: white;
+    background-color:azure;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 
 .square{
@@ -44,3 +46,7 @@ h1{
     text-align: center;
     font-size: 50px;
     }
+h3{
+    text-align: center;
+    font-size: 15px;
+}
