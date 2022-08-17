@@ -32,12 +32,6 @@ body{
     margin-bottom: 10px;
 }
 
-.square{
-    height: 250px;
-    width: 250px;
-    background-color: white;
-    }
-
 img{
     display: flex;
     height: 250px;
