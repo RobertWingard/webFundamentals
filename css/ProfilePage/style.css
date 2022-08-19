@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+}
+
+#top-bar{
+    background-color: black;
+    height: 100px;
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 100px; */
+
+}
+
+#button{
+    color: white;
+    background-color: blue;
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    
+    }
+
+#profile{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#top{
+    background-color: rgb(41, 138, 202);
+    height: 70px;
+    padding: 15px;
+    
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    /* display: flex; */
+}
+
+h1{
+    margin-bottom: 10px;
+    color: white
+}
+
+#marker{
+    width: 10px;
+}
+
+#bottom{
+    padding: 30px;
+}
+
+#seattle{
+    margin-bottom: 10px;
+    height: 20px;
+    width: 10px;
+    display: flex;
+
+}
+
+#cog{
+    width: 15px;
+    height: 15px;
+}
+
+#last{
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.secondbox{
+    background-color: white;
+    height: 750px;
+    width: 750px;
+    display: flex;
+}
+
+#leftCol{
+    /* background-color: rgb(194, 10, 10); */
+    /* height: 700px;
+    width: 300px; */
+    /* display: flex; */
+    margin-right: 20px;
+    margin-left: 50px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+#rightCol{
+    /* background-color: rgb(56, 32, 143); */
+    height: 700px;
+    width: 200px;
+    /* display: flex; */
+}
+
+#leftTop{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 100px;
+    border: 2px solid gray;
+    /* border: 1px solid black; */
+}
+
+#rightBot{
+    height: 219px;
+    width: 200px;
+    /* background-color: purple; */
+    border: 2px solid grey;
+}
+
+#rightTop{
+    height: 140px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 100px;
+    margin-top: 15px;
+    border: 2px solid gray;
+}
+
+#pic{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    position: relative;
+    top: 40%;
+}
+
+#bottom>h1{
+    color: black;
+}
+
+.push{
+    margin-left: 5px;
+}
+
+#edu{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;    
+}
+
+#leftBot{
+    height: 150px;
+    width: 100%;
+    /* background-color: purple; */
+    border: 1px solid grey;
+}
+
+#line1{
+    padding: 8px;
+}
+
+#line2{
+    padding: 8px;
+}
+
+#line3{
+    padding: 8px;
+}
+
+.todd{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    border-radius: 50%;
+    margin-left: 4px;
+    display: flex;
+}
+
+#connection{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px; 
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    display: flex;
+
+}
+
+.connectionRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    
+    
+}
+
+#num{
+    border-radius: 50%;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    /* text-align: center; */
+    padding: 3px;
+}
+
+.connectionRow2{
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 10px;
+
+}
+
+.todd1{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    border-radius: 50%;
+    /* margin-right: 30px; */
+    margin-left: 5px;
+
+}
+
+#attach{
+    height: 40px;
+    width: 200px;
+    /* background-color: pink; */
+    border: 2px solid grey;
+    margin-top: 4px;
+    margin-left: -2px;
+}
+
+#more{
+    /* padding: 15px; */
+    margin: 10px;
+    display: flex;
+    
+}
+
+.image1{
+    /* border: 1px solid red; */
+    align-self: flex-start;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.fivePxSpace{
+    /* border: 1px solid red; */
+    margin: 5px;
+}
+
