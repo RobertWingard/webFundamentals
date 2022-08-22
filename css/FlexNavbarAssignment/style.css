@@ -16,21 +16,23 @@
 .nav-links{
     display: flex;
     list-style: none;
-    width: 400px;
+    /* width: 400px; */
     justify-content: space-between;
-    align-items: right;
-    font-size: 20px;
+    font-size: 15px;
+    align-items: center;
+    /* padding-right: 10px; */
 }
 
 h1{
     color: white;
 }
-.nav-links a{
+a{
     color: white;
     text-decoration: none;
+    padding-right: 25px;
 }
 button{
     color: white;
     background-color: blue;
-    padding: 5px
+    padding: 5px;
 }

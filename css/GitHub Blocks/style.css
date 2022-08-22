@@ -33,7 +33,7 @@ body{
 }
 
 img{
-    display: flex;
+    /* display: flex; */
     height: 250px;
 }
 h1{
