@@ -120,6 +120,8 @@ body {
 }
 
 .video-title {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    font-size: 17px;
     font-weight: 900;
+    margin-left: 10px;
 }
