@@ -12,8 +12,15 @@
     <div id="nav-bar">
         <h1>PuppyGram</h1>
         <div id="nav-middle">
-            <input type="text" name="" id="" placeholder="Search a puppy name">
-            <button>Search!</button>
+            <input id="name-search" type="text" name="" id="" placeholder="Search a puppy name">
+            <select onchange="chooseLocation(this)">
+                <option value="">Please select a location</option>
+                <option value="DC">DC</option>
+                <option value="NYC">NYC</option>
+                <option value="Miami">Miami</option>
+                <option value="Charleston">Charleston</option>
+            </select>
+            <button onclick="searchPuppy(this)" >Search!</button>
         </div>
         <button onclick="toggleLogin(this)">Login</button>
     </div>

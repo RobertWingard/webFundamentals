@@ -7,3 +7,8 @@ function playVideo(leftVideo){
 function pauseVideo(leftVideo){
     leftVideo.pause()
 }
+
+function mainVideo(vid){
+    let vid1 = document.querySelector(".vid1").src
+    console.log(vid.src, vid1)
+}

@@ -23,7 +23,7 @@ function removeButton(btn){
 
 function switchImg(imgElement){
     console.log(imgElement.src);
-    if(imgElement.src === "http://127.0.0.1:5500/webFundamentals/Week3/puppyGram/resources/puppy.jpeg"){
+    if(imgElement.src === "http://127.0.0.1:5500/Week3/puppyGram/resources/puppy.jpeg"){
         imgElement.src = "./resources/anothaPuppy.jpeg"
     }else{
         imgElement.src = "./resources/puppy.jpeg"
@@ -55,4 +55,18 @@ function playVideo(videoElement){
 function pauseVideo(videoElement){
     // console.log('and action', videoElement)
     videoElement.pause();
+}
+
+function searchPuppy(){
+    console.log('searching for a puppy name')
+    let element = document.querySelector('#name-search');
+    // console.log(element.value)
+    alert(`You searched for a puppy named ${element.value}`);
+}
+
+
+function chooseLocation(element){
+    console.log('choosing a location', element.value);
+    // alert('You are seaching for a pet in this location ' + element.value)
+    alert(`You are searching for a dog in ${element.value}. Come by anytime!`)
 }

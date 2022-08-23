@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 250px;
+}
+
+.nav-bar{
+    background-color: black;
+    /* height: 100px; */
+    /* width: 500px; */
+    color: white;
+    /* justify-content: center; */
+    padding: 10px;
+    /* align-items: center; */
+    
+}
+
+#feed{
+    /* background-color: green; */
+    padding: 20px;
+}
+
+#feed>h2{
+    text-align: center;
+
+}
+
+#col-left>img{
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#col-left{
+    border: 2px solid black;
+    height: 200px;
+    width: 135px;
+    text-align: center;
+    padding: 20px;
+}
+
+#container{
+    display: flex;
+    gap: 20px;
+}
+
+#col-left>p{
+    font-size: 18px;
+    margin-top: 10px
+}
+
+#rightCont{
+    /* background-color: red; */
+    /* height: 650px; */
+    width: 475px;
+    /* border: 2px solid pink; */
+
+}
+
+#rTop{
+    background: white;
+    height: 120px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.topRow{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 15px; */
+    align-items: center;
+}
+
+.topRow>button{
+    height: 30px;
+    width: 50px;
+    background-color: burlywood;
+    box-shadow: 3px 3px 3px black;
+}
+
+.likes{
+    margin-left: 200px;
+}
