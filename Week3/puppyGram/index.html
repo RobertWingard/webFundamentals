@@ -23,8 +23,10 @@
         <div id="col-left">
             <div class="puppy-box">
                 <div class="puppy-box-left">
-                    <img onmouseover="switchImg(this)"
-                        onmouseout="switchImg(this)" src="./resources/puppy.jpeg" alt="puppy1">
+                    <img 
+                        onmouseover="switchImg(this)"
+                        onmouseout="switchImg(this)" 
+                        src="./resources/puppy.jpeg" alt="puppy1">
                     <h3>Junior</h3>
                     <em>Male</em>
                     <p>Breed: <em>Fox</em></p>
@@ -52,7 +54,7 @@
             </div>
             <div class="col-right-box">
                 <p id="video-title">our popular video of the week!</p>
-                <video src="./resources/puppy_video.mp4"></video>
+                <video onmouseover="playVideo(this)" onmouseout="pauseVideo(this)" src="./resources/puppy_video.mp4" muted="muted"></video>
                 <em>This is Josie, the playful beach dog!</em>
             </div>
         </div>

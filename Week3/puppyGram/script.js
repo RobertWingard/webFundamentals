@@ -23,8 +23,8 @@ function removeButton(btn){
 
 function switchImg(imgElement){
     console.log(imgElement.src);
-    if(imgElement.src === "http://127.0.0.1:5500/Week3/puppyGram/resources/puppy.jpeg"){
-    imgElement.src = "./resources/anothaPuppy.jpeg"
+    if(imgElement.src === "http://127.0.0.1:5500/webFundamentals/Week3/puppyGram/resources/puppy.jpeg"){
+        imgElement.src = "./resources/anothaPuppy.jpeg"
     }else{
         imgElement.src = "./resources/puppy.jpeg"
     }
@@ -45,4 +45,14 @@ function increaseLikes(elementID){
     currentCount ++;
 
     spanElement.innerText = currentCount
+}
+
+function playVideo(videoElement){
+    // console.log('and action', videoElement)
+    videoElement.play();
+}
+
+function pauseVideo(videoElement){
+    // console.log('and action', videoElement)
+    videoElement.pause();
 }
