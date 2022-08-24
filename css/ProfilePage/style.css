@@ -94,6 +94,7 @@ h1{
 #rightCol{
     height: 700px;
     width: 200px;
+    border: 1px solid red;
 }
 
 #leftTop{
@@ -189,6 +190,7 @@ img{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    border: 1px solid black;
 }
 
 #num{
@@ -242,3 +244,6 @@ img{
     margin: 5px;
 }
 
+#connectionBody{
+    /* background-color: red; */
+}
